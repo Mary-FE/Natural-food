@@ -1,0 +1,54 @@
+* { box-sizing: border-box; }
+
+body {
+    font: 400 16px/1.4 var(--font-family__main);
+}
+/* ============================================== */
+/* Buttons */
+.button {
+    padding: 10px 25px;
+
+    color: var(--text-color__light);
+    font: 14px 700 var(--font-family__main);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+    transition: var(--common-animation);
+}
+
+._primary {
+    background-color: var(--color__action);
+    color: var(--text-color__light);
+}
+
+._primary:hover {
+    background-color: var(--background-action__hover);
+}
+
+._secondary {
+    color: var(--background-button__hover);
+    background-color: var(--text-color__light);
+}
+
+._secondary:hover {
+    color: var(--text-color__light);
+    background-color: var(--background-button__hover);
+}
+/* =================================================== */
+/* Icons */
+.icon { position: relative; }
+.icon:before { font-family: var(--font-family__icon);}
+
+._search:before    { content: var(--icon-search); }
+._menu:before    { content: var(--icon-menu); }
+._checkmark:before    { content: var(--icon-checkmark); }
+._arrow:before    { content: var(--icon-arrow); }
+
+/* ==================================================== */
+.box {
+    max-width: var(--layout__width);
+    margin: 0 auto;
+    padding: 0 30px;
+}

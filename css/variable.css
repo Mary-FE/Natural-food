@@ -1,0 +1,27 @@
+:root {
+    --text-color__dark: #111;
+    --text-color__light: #fff;
+
+    --main-color__theme: #f0cf56;
+    --color__action: #12c757;
+
+    --background-button__hover: #478ac9;
+    --background-action__hover: #10b34e;
+/* ========================================= */
+/* Font */
+    --font-family__main: 'Merriweather', serif;
+    --font-family__icon: 'Icon Font';
+
+    --layout__width: 1140px;
+/* ======================================== */
+
+/* Icons */
+    --icon-search: '\e900';
+    --icon-menu: '\e901';
+    --icon-checkmark: '\e902';
+    --icon-arrow: '\e903';
+
+/* ================================= */
+    --common-animation: all ease .3s;
+/* ==================================== */
+}
