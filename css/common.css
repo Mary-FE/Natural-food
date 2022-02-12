@@ -6,19 +6,20 @@ body {
 /* ============================================== */
 /* Buttons */
 .button {
-    padding: 10px 25px;
+    margin: 10px 0;
 
-    color: var(--text-color__light);
-    font: 14px 700 var(--font-family__main);
-    text-transform: uppercase;
+    font: 700 14px var(--font-family__main);
     text-decoration: none;
     letter-spacing: 1px;
 
+    border: none;
+    border-radius: 50px;
     cursor: pointer;
     transition: var(--common-animation);
 }
 
 ._primary {
+    padding: 10px 60px;
     background-color: var(--color__action);
     color: var(--text-color__light);
 }
@@ -28,6 +29,7 @@ body {
 }
 
 ._secondary {
+    padding: 10px 30px;
     color: var(--background-button__hover);
     background-color: var(--text-color__light);
 }
@@ -51,4 +53,26 @@ body {
     max-width: var(--layout__width);
     margin: 0 auto;
     padding: 0 30px;
+}
+/* ========================================================= */
+/* Links */
+.icon:before {
+    font-weight: 400;
+    transition: var(--common-animation);
+    cursor: pointer;
+}
+
+/* ======================================================== */
+/* For background image */
+._bg-wrapper {
+    position: relative;
+}
+
+._bg-wrapper .image-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }

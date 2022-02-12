@@ -8,23 +8,96 @@
     <link rel="stylesheet preload" href="css/variable.css" />
     <link rel="stylesheet preload" href="css/common.css" />
     <link rel="stylesheet preload" href="css/lib/normalize.css" />
-    <link rel="stylesheet preload" href="css/components/mobile.css" />
-    <link rel="stylesheet preload" href="css/components/mobile.css" media="screen and (min-width: 768px)" />
-    <link rel="stylesheet preload" href="css/components/desktop.css" media="screen and (min-width: 1024px)" />
+    <link rel="stylesheet" href="css/breakpoint/mobile.css" />
+    <link rel="stylesheet" href="css/breakpoint/tablet.css" media="screen and (min-width: 768px)" />
+    <link rel="stylesheet" href="css/breakpoint/desktop.css" media="screen and (min-width: 1024px)" />
     <title>Natural food</title>
 </head>
 <body>
     <!-- This is menu -->
-    <div class="menu">
+    <header class="menu _bg-wrapper">
+        <div class="image-bg">
+            <img src="img/apples.jpeg" alt="chopped citrus fruits with a cocktail tube" loading="lazy" />
+        </div>
         <div class="box">
-            <div>Natural food</div>
-            <div>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div class="navigation">
+                <form action="#" method="get">
+                    <div class="search-wrapper">
+                        <input type="text" class="input-search" name="username" value placeholder="Search">
+                        <button type="submit" class="icon _search"></button>
+                    </div>
+                </form>
+                <span class="icon _menu"></span>
             </div>
-            <button class="button _primary">Read more</button>
-            <button class="button _secondary">View all recipes</button>
+
+            <aside>
+                <h1 class="title">Natural food</h1>
+                <div class="text">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <button class="button _primary">Read more</button>
+                <button class="button _secondary icon _checkmark">View all recipes</button>
+            </aside>
+
+            
+        </div>
+    </header>
+
+    <!-- This is catalog -->
+    <div class="catalog">
+        <div class="box">
+            <div class="item">
+                <img src="img/caesar.png" alt="salad caesar" loading="lazy" />
+                <div>
+                    <div class="name">Caesar salad</div>
+                    <div class="price">$20</div>
+                    <div class="text">
+                        Sample text. Click to select the text box.
+                        Click again or double click to start editing the text.
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="item">
+                <img src="img/greek.png" alt="salad greek" loading="lazy" />
+                <div>
+                    <div class="name">Greek salad</div>
+                    <div class="price">$45</div>
+                    <div class="text">
+                        Sample text. Click to select the text box.
+                        Click again or double click to start editing the text.
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="item">
+                <img src="img/mexican.png" alt="salad mexican" loading="lazy" />
+                <div>
+                    <div class="name">Mexican salad</div>
+                    <div class="price">$13</div>
+                    <div class="text">
+                        Sample text. Click to select the text box.
+                        Click again or double click to start editing the text.
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="img/ricotta.png" alt="Classic Ricotta" loading="lazy" />
+                <div>
+                    <div class="name">Classic Ricotta</div>
+                    <div class="price">$24</div>
+                    <div class="text">
+                        Sample text. Click to select the text box.
+                        Click again or double click to start editing the text.
+                    </div>
+                </div> 
+            </div>
+            <div class="catalog-extra-link">Image from <a href="#" class="link">Freepic</a></div>
         </div>
     </div>
 </body>

@@ -4,12 +4,16 @@
 
     --main-color__theme: #f0cf56;
     --color__action: #12c757;
+    --color__hover: #9e9e9e7a;
 
     --background-button__hover: #478ac9;
     --background-action__hover: #10b34e;
+
+    --image-apples: url('../css/img/apples.jpeg');
 /* ========================================= */
 /* Font */
-    --font-family__main: 'Merriweather', serif;
+    --font-family__title: 'Merriweather', serif;
+    --font-family__main: 'Open Sans', sans-serif;
     --font-family__icon: 'Icon Font';
 
     --layout__width: 1140px;

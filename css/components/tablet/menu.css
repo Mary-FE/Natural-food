@@ -1,0 +1,20 @@
+.menu .navigation {
+    display: flex;
+    justify-content: space-between;   
+    margin-bottom: 40px;
+}
+
+.menu .text {
+    max-width: 660px;
+    margin: 0 auto 20px;
+    font-size: 20px;
+}
+
+.menu .title {
+    margin-bottom: 20px;
+}
+
+.menu._bg-wrapper {
+    display: flex;
+    min-height: 500px;
+}

@@ -1,0 +1,90 @@
+.menu {
+    padding: 25px 0 35px;
+    text-align: center;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: calc(100% - 67px);
+}
+
+/* form with input search */
+.menu .search-wrapper {
+    position: relative;
+}
+
+.menu .search-wrapper button {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    
+    border: 0;
+    background-color: transparent;
+}
+
+.menu .search-wrapper input {
+    padding: 5px;
+
+    background-color: inherit;
+    border: 1px solid var(--text-color__light);
+    outline: none;
+}
+
+/* navigation */
+.menu .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.menu .navigation .icon {
+    color: var(--text-color__light);
+}
+
+/* actions */
+.menu .button._secondary {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.menu .button._secondary:hover {
+    color: var(--text-color__light);
+}
+
+.menu .text {
+    color: var(--text-color__light);
+    text-shadow: -1px 0 var(--color__hover);
+}
+
+
+.menu .icon:not(:last-child) {
+    margin-top: 16px;
+    margin-left: 16px;
+    color: var(--text-color__light);
+}
+
+.menu .icon:hover {
+    color: var(--color__hover);
+}
+
+.menu img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.menu ._checkmark:before {
+    display: inline-block;
+    padding-right: 5px;
+    color: var(--background-button__hover);
+}
+
+
+.menu ._checkmark:hover:before {
+    color: var(--text-color__light);
+}

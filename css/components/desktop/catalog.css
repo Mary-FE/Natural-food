@@ -1,0 +1,11 @@
+.catalog .item {
+    grid-gap: 15px;
+    grid-template-columns: auto 1fr;
+    text-align: left;
+}
+
+.catalog .box {
+    display: grid;
+    grid-row-gap: 60px;
+    text-align: center;
+}

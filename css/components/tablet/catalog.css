@@ -1,0 +1,19 @@
+.catalog img {
+    margin: 0 auto;
+}
+
+.catalog .box {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.catalog .item {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.catalog-extra-link {
+    grid-column: 1/3;
+}
