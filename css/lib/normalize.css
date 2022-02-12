@@ -10,6 +10,7 @@ body {
 a { 
     background-color: transparent; 
     text-decoration: none; 
+    cursor: pointer;
 }
   
 img { 
@@ -35,6 +36,5 @@ h1 {
 
 h2 {
     font: 700 30px 'Merriweather', serif;
-    color: var(--text-color__light);
     text-shadow: 5px 0px var(--color__hover);
 }

@@ -1,0 +1,7 @@
+.learn-cooking {
+    text-align: center;
+}
+
+.learn-cooking .categories {
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,24 @@
+.learn-cooking .title {
+    text-align: center;
+}
+
+.learn-cooking .text {
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+/* Images */
+.learn-cooking .categories {
+    display: grid;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.learn-cooking img {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50px;
+    object-fit: cover;
+}
+/* =================================== */
