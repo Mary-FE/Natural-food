@@ -19,9 +19,11 @@ body {
 }
 
 ._primary {
-    padding: 10px 60px;
+    padding: 10px 15px;
     background-color: var(--color__action);
     color: var(--text-color__light);
+    width: 100%;
+    max-width: 300px;
 }
 
 ._primary:hover {
@@ -29,9 +31,11 @@ body {
 }
 
 ._secondary {
-    padding: 10px 30px;
+    padding: 10px 15px;
     color: var(--background-button__hover);
     background-color: var(--text-color__light);
+    width: 100%;
+    max-width: 300px;
 }
 
 ._secondary:hover {

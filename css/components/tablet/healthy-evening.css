@@ -1,0 +1,13 @@
+.healthy-evening {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.healthy-evening .title {
+    font-size: 40px;
+}
+
+.healthy-evening .text {
+    max-width: 300px;
+    font-size: 16px;
+}

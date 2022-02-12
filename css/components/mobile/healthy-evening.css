@@ -1,0 +1,27 @@
+.healthy-evening {
+    padding-top: 10px;
+    background-color: var(--main-color__theme);
+}
+
+.healthy-evening .text {
+    margin-bottom: 20px;
+    color: var(--text-color__light);
+    font: 14px/1.6 'Open Sans', sans-serif;
+}
+
+/* Link */
+.healthy-evening .link {
+    color: var(--text-color__light);
+    text-decoration: underline;
+}
+
+.healthy-evening .link:hover {
+    color: var(--color__hover);
+    text-decoration: none;
+    transition: var(--common-animation);
+}
+/* ======================================= */
+
+.healthy-evening button {
+    margin-bottom: 30px;
+}

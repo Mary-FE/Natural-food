@@ -1,0 +1,13 @@
+.healthy-evening .title {
+    font-size: 80px;
+}
+
+.healthy-evening .text {
+    max-width: none;
+    font-size: 20px;
+}
+
+.healthy-evening button {
+    padding: 15p;
+    font-size: 18px;
+}
