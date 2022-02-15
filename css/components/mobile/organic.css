@@ -1,0 +1,35 @@
+.organic {
+    background: center / cover no-repeat var(--bg-two-salads);
+}
+
+.organic .box {
+    text-align: center;
+}
+
+.organic .title {
+    max-width: 410px;
+    margin: 0 auto;
+    
+    font-size: 50px;
+    color: var(--text-color__title);
+}
+
+.organic .text {
+    max-width: 480px;
+    margin: 15px auto;
+}
+
+/*Link */
+.organic .link {
+    color: var(--text-color__dark);
+    border-bottom: 2px solid var(--main-color__theme);
+}
+
+.organic .link:hover {
+    border-bottom: none;
+}
+/* ===================================================== */
+
+.organic .item, .button {
+    margin-bottom: 20px;
+}
