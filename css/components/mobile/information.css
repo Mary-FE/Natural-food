@@ -1,0 +1,39 @@
+.information .name {
+    font: 700 20px var(--font-family__title) ;
+    text-transform: uppercase;
+}
+
+.information .text {
+    font-size: 12px;
+    color: var(--color__hover);
+}
+
+.information .name, .text, .item {
+    margin-bottom: 10px;
+}
+
+.information .link {
+    color: var(--text-color__dark);
+    border-bottom: 2px solid var(--main-color__theme);
+}
+
+.information .link:hover {
+    border-bottom: none;
+}
+
+.information .procents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--text-color__light);
+
+    background-color: var(--color__action);
+    border-radius: 50%;
+}
