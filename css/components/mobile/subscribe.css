@@ -7,7 +7,8 @@
     text-align: center;
 }
 
-.subscribe .title, .text {
+.subscribe .title, 
+.subscribe .text {
     color: var(--text-color__light);
 }
 
