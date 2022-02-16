@@ -1,0 +1,23 @@
+.subscribe {
+    padding: 20px 0;
+    background-color: var(--main-color__theme);
+}
+
+.subscribe .box {
+    text-align: center;
+}
+
+.subscribe .title, .text {
+    color: var(--text-color__light);
+}
+
+/* Link===================== */
+.subscribe .link {
+    border-bottom: 1px solid var(--text-color__light);
+    transition: var(--common-animation);
+}
+
+.subscribe .link:hover {
+    color: var(--color__hover);
+    border-bottom: none;
+}

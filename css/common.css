@@ -43,6 +43,18 @@ body {
     background-color: var(--background-button__hover);
 }
 /* =================================================== */
+/* Input */
+input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 15px;
+
+    border: 2px solid var(--color__action);
+    border-radius: 50px;
+    background-color: transparent;
+    outline: 0;
+}
+/* =================================================== */
 /* Icons */
 .icon { position: relative; }
 .icon:before { font-family: var(--font-family__icon);}
