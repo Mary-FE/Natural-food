@@ -19,11 +19,12 @@ body {
 }
 
 ._primary {
-    padding: 10px 15px;
-    background-color: var(--color__action);
-    color: var(--text-color__light);
     width: 100%;
     max-width: 300px;
+    padding: 10px 15px;
+
+    color: var(--text-color__light);
+    background-color: var(--color__action);
 }
 
 ._primary:hover {
@@ -31,11 +32,12 @@ body {
 }
 
 ._secondary {
-    padding: 10px 15px;
-    color: var(--background-button__hover);
-    background-color: var(--text-color__light);
     width: 100%;
     max-width: 300px;
+    padding: 10px 15px;
+    
+    color: var(--background-button__hover);
+    background-color: var(--text-color__light);
 }
 
 ._secondary:hover {
@@ -63,6 +65,7 @@ input {
 ._menu:before    { content: var(--icon-menu); }
 ._checkmark:before    { content: var(--icon-checkmark); }
 ._arrow:before    { content: var(--icon-arrow); }
+._bg-green:before    { content: var(--icon-bg-green); }
 
 /* ==================================================== */
 .box {

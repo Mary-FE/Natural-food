@@ -1,5 +1,7 @@
 .organic {
+    padding: 40px 0;
     background: center / cover no-repeat var(--bg-two-salads);
+    background-position: 22% bottom;
 }
 
 .organic .box {
@@ -10,7 +12,7 @@
     max-width: 410px;
     margin: 0 auto;
     
-    font-size: 50px;
+    font-size: 30px;
     color: var(--text-color__title);
 }
 

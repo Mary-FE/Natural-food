@@ -10,6 +10,7 @@
     --background-button__hover: #478ac9;
     --background-action__hover: #10b34e;
 
+    --hover-color: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
     --image-apples: url('../css/img/apples.jpeg');
 /* ========================================= */
 /* Font */
@@ -20,7 +21,6 @@
     --layout__width: 1140px;
 /* ======================================== */
 
-
 /* Images */
     --bg-two-salads: url('../../../img/two-salads.jpg');
 /* ========================================= */
@@ -30,6 +30,7 @@
     --icon-menu: '\e901';
     --icon-checkmark: '\e902';
     --icon-arrow: '\e903';
+    --icon-bg-green: '\e904';
 
 /* ================================= */
     --common-animation: all ease .3s;

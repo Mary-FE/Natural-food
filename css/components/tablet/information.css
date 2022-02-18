@@ -1,0 +1,17 @@
+.information .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.information .mushrooms {
+    width: 430px;
+    order: 2;
+}
+
+.information .procents {
+    margin-left: 0;
+}
+
+.information .text {
+    font-size: 16px;
+}

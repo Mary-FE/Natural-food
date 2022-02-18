@@ -11,3 +11,21 @@
     padding: 15p;
     font-size: 18px;
 }
+
+/* Ice-cream */
+.healthy-evening {
+    grid-gap: 30px;
+}
+
+.healthy-evening._ice-cream .information {
+    padding-bottom: 50px;
+}
+
+.healthy-evening._ice-cream img {
+    width: 460px;
+    height: 460px;
+}
+
+.healthy-evening._ice-cream .image span:before {
+    font-size: 470px;
+}

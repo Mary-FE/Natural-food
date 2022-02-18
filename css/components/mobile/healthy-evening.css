@@ -5,6 +5,7 @@
 
 .healthy-evening .title {
     color: var(--text-color__light);
+    font-size: 25px;
 }
 
 .healthy-evening .text {
@@ -16,13 +17,12 @@
 /* Link */
 .healthy-evening .link {
     color: var(--text-color__light);
-    text-decoration: underline;
+    border-bottom: 1px solid var(--text-color__light);
 }
 
 .healthy-evening .link:hover {
     color: var(--color__hover);
-    text-decoration: none;
-    transition: var(--common-animation);
+    border-bottom: none;
 }
 /* ======================================= */
 
@@ -32,13 +32,30 @@
 
 /* For ice-cream */
 .healthy-evening._ice-cream img {
+    position: relative;
+
     display: block;
-    width: 307px;
-    height: 307px;
+    width: 255px;
+    height: 255px;
 
     margin: 0 auto;
     padding: 30px;
 
     border-radius: 50%;
     object-fit: cover;
+}
+
+.healthy-evening._ice-cream .image span:before {
+    content: var(--icon-bg-green);
+    
+    position: absolute;
+
+    font: 230px 'Icon Font';
+    color: var(--color__action);
+}
+
+.healthy-evening._ice-cream .image {
+    display: flex;
+    justify-content: center;
+    position: relative;
 }

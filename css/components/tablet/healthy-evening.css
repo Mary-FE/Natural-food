@@ -11,3 +11,23 @@
     max-width: 300px;
     font-size: 16px;
 }
+
+/* For ice-cream */
+.healthy-evening._ice-cream .image span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.healthy-evening._ice-cream .image span:before {
+    font-size: 290px;
+}
+
+.healthy-evening._ice-cream .image {
+    justify-content: initial;
+}
+
+.healthy-evening._ice-cream img {
+    width: 320px;
+    height: 320px;
+}

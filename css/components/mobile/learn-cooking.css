@@ -7,6 +7,42 @@
     font-size: 12px;
 }
 
+/* Arrow Icon =============================================*/
+.learn-cooking ._arrow:before {
+    display: inline-block;
+    padding: 5px;
+
+    font: 40px 'Icon Font';
+    color: var(--text-color__light);
+
+    background-color: var(--color__action);
+    border-radius: 50%;
+}
+
+.learn-cooking .categories-wrapper ._arrow:first-child {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: -15px;
+    transform: translateY(50%);
+}
+
+.learn-cooking .categories-wrapper ._arrow:last-child:before {
+    transform: rotate(180deg);
+}
+
+.learn-cooking .categories-wrapper ._arrow:last-child {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: -15px;
+    transform: translateY(50%);
+}
+
+.categories-wrapper {
+    position: relative;
+}
+/* ============================================================ */
 /* Images */
 .learn-cooking .categories {
     display: grid;
@@ -15,10 +51,31 @@
 }
 
 .learn-cooking img {
-    width: 200px;
-    height: 200px;
+    height: 300px;
 
     border-radius: 50px;
     object-fit: cover;
 }
-/* =================================== */
+
+.learn-cooking a {
+    position: relative;
+}
+
+.learn-cooking a:before {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    background-image: var(--hover-color);
+    border-radius: 50px;
+    opacity: 0;
+}
+
+.learn-cooking a:hover:before {
+    opacity: 1;
+    transition: var(--common-animation);
+}

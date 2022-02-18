@@ -5,8 +5,8 @@
 
 aside {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     
     height: calc(100% - 67px);
@@ -49,8 +49,8 @@ aside {
 .menu .button._secondary {
     display: flex;
     align-items: center;
-    margin: 10px auto;
     justify-content: center;
+    margin: 10px auto;
 }
 
 .menu .button._secondary:hover {
@@ -61,7 +61,6 @@ aside {
     color: var(--text-color__light);
     text-shadow: -1px 0 var(--color__hover);
 }
-
 
 .menu .icon:not(:last-child) {
     margin-top: 16px;
@@ -78,13 +77,11 @@ aside {
     object-fit: cover;
 }
 
-
 .menu ._checkmark:before {
     display: inline-block;
     padding-right: 5px;
     color: var(--background-button__hover);
 }
-
 
 .menu ._checkmark:hover:before {
     color: var(--text-color__light);
