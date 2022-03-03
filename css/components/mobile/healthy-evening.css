@@ -1,9 +1,14 @@
 .healthy-evening {
-    padding-top: 10px;
+    display: grid;
     background-color: var(--main-color__theme);
 }
 
+.healthy-evening .box {
+    padding: 20px 30px;
+}
+
 .healthy-evening .title {
+    margin-bottom: 15px;
     color: var(--text-color__light);
     font-size: 25px;
 }
@@ -11,7 +16,11 @@
 .healthy-evening .text {
     margin-bottom: 20px;
     color: var(--text-color__light);
-    font: 14px/1.6 'Open Sans', sans-serif;
+    font: 14px/1.6 var(--font-family__main);
+}
+
+.healthy-evening img {
+    height: 100%;
 }
 
 /* Link */

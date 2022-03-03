@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+.learn-cooking .text {
+    max-width: 320px;
+    font-size: 15px;
+}
+
 .learn-cooking .categories {
     grid-template-columns: 1fr 1fr;
 }

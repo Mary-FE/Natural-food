@@ -1,6 +1,4 @@
-.menu .navigation {
-    display: flex;
-    justify-content: space-between;   
+.menu .navigation {   
     margin-bottom: 40px;
 }
 
@@ -17,4 +15,10 @@
 .menu._bg-wrapper {
     display: flex;
     min-height: 500px;
+}
+
+.menu._bg-wrapper .actions-wrapper {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
 }

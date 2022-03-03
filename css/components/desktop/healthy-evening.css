@@ -1,20 +1,49 @@
+.healthy-evening._avocado {
+    min-height: 700px;
+    grid-gap: 30px;
+    align-items: center;
+}
+
 .healthy-evening .title {
     font-size: 80px;
 }
 
 .healthy-evening .text {
-    max-width: none;
+    max-width: 400px;
     font-size: 20px;
 }
 
 .healthy-evening button {
-    padding: 15p;
+    padding: 15px;
     font-size: 18px;
 }
 
+.healthy-evening img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.healthy-evening .image {
+    height: 100%;
+    position: relative;
+}
+
 /* Ice-cream */
+.healthy-evening._ice-cream .title {
+    font-size: 55px;
+}
+
+.healthy-evening._ice-cream > .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .healthy-evening {
     grid-gap: 30px;
+    max-height: 800px;
+    align-items: center;
 }
 
 .healthy-evening._ice-cream .information {
@@ -22,10 +51,11 @@
 }
 
 .healthy-evening._ice-cream img {
-    width: 460px;
-    height: 460px;
+    width: 420px;
+    height: 420px;
 }
 
 .healthy-evening._ice-cream .image span:before {
     font-size: 470px;
 }
+

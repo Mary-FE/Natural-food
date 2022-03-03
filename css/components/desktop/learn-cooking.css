@@ -1,3 +1,8 @@
 .learn-cooking .title {
     font-size: 50px;
 }
+
+.learn-cooking .text {
+    max-width: 380px;
+    font-size: 18px;
+}

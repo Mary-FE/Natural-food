@@ -1,9 +1,14 @@
+.learn-cooking {
+    padding: 20px 0;
+}
+
 .learn-cooking .title {
     text-align: center;
 }
 
 .learn-cooking .text {
-    margin-bottom: 30px;
+    max-width: 270px;
+    margin: 0 auto 30px;
     font-size: 12px;
 }
 
@@ -12,19 +17,23 @@
     display: inline-block;
     padding: 5px;
 
-    font: 40px 'Icon Font';
+    font: 40px var(--font-family__icon);
     color: var(--text-color__light);
 
     background-color: var(--color__action);
     border-radius: 50%;
 }
 
-.learn-cooking .categories-wrapper ._arrow:first-child {
+.learn-cooking .categories-wrapper ._arrow:first-child,
+.learn-cooking .categories-wrapper ._arrow:last-child {
     position: absolute;
     z-index: 2;
-    top: 50%;
-    left: -15px;
+    top: 42%;
     transform: translateY(50%);
+}
+
+.learn-cooking .categories-wrapper ._arrow:first-child {
+    left: -15px;
 }
 
 .learn-cooking .categories-wrapper ._arrow:last-child:before {
@@ -32,14 +41,11 @@
 }
 
 .learn-cooking .categories-wrapper ._arrow:last-child {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
     right: -15px;
-    transform: translateY(50%);
 }
 
-.categories-wrapper {
+.categories-wrapper,
+.learn-cooking a {
     position: relative;
 }
 /* ============================================================ */
@@ -48,6 +54,7 @@
     display: grid;
     grid-gap: 20px;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 .learn-cooking img {
@@ -55,10 +62,6 @@
 
     border-radius: 50px;
     object-fit: cover;
-}
-
-.learn-cooking a {
-    position: relative;
 }
 
 .learn-cooking a:before {

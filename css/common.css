@@ -6,6 +6,7 @@ body {
 /* ============================================== */
 /* Buttons */
 .button {
+    min-width: 230px;
     margin: 10px 0;
 
     font: 700 14px var(--font-family__main);
@@ -36,7 +37,7 @@ body {
     max-width: 300px;
     padding: 10px 15px;
     
-    color: var(--background-button__hover);
+    color: var(--text-color__button);
     background-color: var(--text-color__light);
 }
 
@@ -52,7 +53,6 @@ input {
     padding: 10px 15px;
 
     border: 2px solid var(--color__action);
-    border-radius: 50px;
     background-color: transparent;
     outline: 0;
 }

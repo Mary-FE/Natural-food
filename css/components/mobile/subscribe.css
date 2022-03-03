@@ -12,6 +12,10 @@
     color: var(--text-color__light);
 }
 
+.subscribe .email {
+    border-radius: 50px;
+}
+
 /* Link===================== */
 .subscribe .link {
     border-bottom: 1px solid var(--text-color__light);

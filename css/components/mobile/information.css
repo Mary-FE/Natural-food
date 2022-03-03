@@ -31,9 +31,9 @@
     margin: 20px auto;
 
     font-size: 45px;
+    color: var(--text-color__light);
     text-align: center;
     text-transform: uppercase;
-    color: var(--text-color__light);
 
     background-color: var(--color__action);
     border-radius: 50%;

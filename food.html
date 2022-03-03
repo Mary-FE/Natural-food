@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet preload" href="css/font.css" />
-    <link rel="stylesheet preload" href="css/variable.css" />
-    <link rel="stylesheet preload" href="css/common.css" />
-    <link rel="stylesheet preload" href="css/lib/normalize.css" />
+    <link rel="stylesheet preload" href="css/font.css" as="font" />
+    <link rel="stylesheet preload" href="css/variable.css" as="variable" />
+    <link rel="stylesheet preload" href="css/common.css" as="common"/>
+    <link rel="stylesheet preload" href="css/lib/normalize.css" as="normalize" />
     <link rel="stylesheet" href="css/breakpoint/mobile.css" />
     <link rel="stylesheet" href="css/breakpoint/tablet.css" media="screen and (min-width: 768px)" />
     <link rel="stylesheet" href="css/breakpoint/desktop.css" media="screen and (min-width: 1024px)" />
@@ -39,8 +39,10 @@
                     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                     sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </div>
-                <button class="button _primary">Read more</button>
-                <button class="button _secondary icon _checkmark">View all recipes</button>
+                <div class="actions-wrapper">
+                    <button class="button _primary">Read more</button>
+                    <button class="button _secondary icon _checkmark">View all recipes</button>
+                </div>
             </aside>
         </div>
     </header>
@@ -58,7 +60,6 @@
                         Click again or double click to start editing the text.
                     </div>
                 </div>
-                
             </div>
 
             <div class="item">
@@ -71,7 +72,6 @@
                         Click again or double click to start editing the text.
                     </div>
                 </div>
-                
             </div>
 
             <div class="item">
@@ -97,12 +97,11 @@
                     </div>
                 </div> 
             </div>
-            <div class="catalog-extra-link">Image from <a href="#" class="link">Freepic</a></div>
         </div>
     </div>
 
     <!-- This is Healthy Evening -->
-    <div class="healthy-evening">
+    <div class="healthy-evening _avocado">
         <div class="box">
             <div class="informarion">
                 <h2 class="title">Healthy Evening</h2>
@@ -145,21 +144,24 @@
     <!-- This is Ice-cream -->
     <div class="healthy-evening _ice-cream">
         <div class="box">
-            <div class="informarion">
-                <h2 class="title">Our Ice Cream</h2>
-                <div class="text">
-                    Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna.
-                    Tempus urna et pharetra pharetra massa massa ultricies mi quis.
-                    Ut faucibus pulvinar elementum <a href="#" class="link">integer</a> enim neque volutpat.
-                    Augue mauris augue neque gravida in.
+            <div class="box">
+                <div class="informarion">
+                    <h2 class="title">Our Ice Cream</h2>
+                    <div class="text">
+                        Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna.
+                        Tempus urna et pharetra pharetra massa massa ultricies mi quis.
+                        Ut faucibus pulvinar elementum <a href="#" class="link">integer</a> enim neque volutpat.
+                        Augue mauris augue neque gravida in.
+                    </div>
+                    <div class="text">Image from <a href="#" class="link">Freepic</a></div>
+                    <button class="button _primary">Read more</button>
                 </div>
-                <div class="text">Image from <a href="#" class="link">Freepic</a></div>
-                <button class="button _primary">Read more</button>
+            </div>
+            <div class="image">
+                <span><img src="img/ice-cream.jpg" alt="pineapple tip in a waffle cone" loading="lazy" /></span>
             </div>
         </div>
-        <div class="image">
-            <span><img src="img/ice-cream.jpg" alt="pineapple tip in a waffle cone" loading="lazy" /></span>
-        </div>
+
     </div>
 
     <!-- This is information -->
@@ -167,7 +169,7 @@
         <div class="box">
             <img class="mushrooms" src="img/mushrooms.png" alt="mushrooms and tomato with lettuce" loading="lazy" />
             <div>
-                <img src="img/name.png" alt="100% fresh food name here" loading="lazy" />
+                <img src="img/name.png" alt="logo" loading="lazy" />
                 <h2 class="procents"><span>30% off</span></h2>
                 <div class="name">Healthy food</div>
                 <div class="text">

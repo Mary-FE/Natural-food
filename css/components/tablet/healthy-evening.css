@@ -13,6 +13,19 @@
 }
 
 /* For ice-cream */
+.healthy-evening._ice-cream {
+    grid-template-columns: 1fr;
+}
+
+.healthy-evening._ice-cream > .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.healthy-evening._ice-cream .box {
+    grid-gap: 40px;
+}
+
 .healthy-evening._ice-cream .image span {
     display: flex;
     justify-content: center;
